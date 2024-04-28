@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+   >
+
+<com.google.android.material.textfield.TextInputLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_margin="50dp"
+style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+    <AutoCompleteTextView
+        android:id="@+id/auto_complete"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Enter your search text here"
+        android:text="MY PLAYLIST"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="none" />
+
+</com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@android:color/black"
+        android:layout_marginEnd="164dp"
+        android:layout_marginBottom="390dp"
+        android:text="PLAY" />
+
+
+</RelativeLayout>

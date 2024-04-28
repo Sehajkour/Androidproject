@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="yourConstraintLayoutId" type="id" />
+    <item name="spinner" type="id" />
+    <item name="auto_complete" type="id" />
+    <item name="progressText" type="id" />
+
+</resources>
